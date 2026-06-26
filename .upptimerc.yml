@@ -1,0 +1,43 @@
+owner: bthomas1982-create
+repo: golfassist-uptime
+
+sites:
+  - name: GolfAssist (marketing)
+    url: https://golfassist.ai
+    expectedStatusCodes:
+      - 200
+      - 301
+      - 302
+  - name: Member app
+    url: https://app.golfassist.ai/app
+    expectedStatusCodes:
+      - 200
+  - name: Club dashboard
+    url: https://dashboard.golfassist.ai
+    expectedStatusCodes:
+      - 200
+  - name: Sign-up portal
+    url: https://signup.golfassist.ai
+    expectedStatusCodes:
+      - 200
+  - name: Club sites
+    url: https://sites.golfassist.ai
+    expectedStatusCodes:
+      - 200
+      - 301
+      - 302
+      - 404
+
+status-website:
+  baseUrl: /golfassist-uptime
+  name: GolfAssist Status
+  introTitle: "**GolfAssist** platform status. Refreshed every five minutes from independent infrastructure."
+  introMessage: |
+    This page reports uptime for the GolfAssist dashboard, member app, sign-up portal and club sites.
+    Data is gathered by GitHub Actions running on GitHub's infrastructure, so this page stays online
+    even when the GolfAssist platform itself is having a bad day.
+  navbar:
+    - title: Status
+      href: /
+    - title: GitHub
+      href: https://github.com/bthomas1982-create/golfassist-uptime
