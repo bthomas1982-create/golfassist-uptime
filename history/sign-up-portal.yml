@@ -1,7 +1,7 @@
 url: https://signup.golfassist.ai
-status: up
-code: 200
-responseTime: 1391
-lastUpdated: 2026-10-01T01:38:32.439Z
+status: down
+code: 502
+responseTime: 430
+lastUpdated: 2026-10-01T16:31:02.134Z
 startTime: 2026-06-26T04:30:15.259Z
 generator: Upptime <https://github.com/upptime/upptime>
